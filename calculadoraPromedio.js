@@ -13,16 +13,16 @@ if (nota1>=0 && nota1<=10){
         prom= (nota1+nota2+nota3)/3;
         var nom = prompt("Ingrese su nombre: ");
         if (prom>=7){
-            console.log(nom + " ¡Felicidades! Has aprobado con un promedio de: " + prom);
+            alert(nom + " ¡Felicidades! Has aprobado con un promedio de: " + prom);
         }else{
-            console.log(nom + " Gracias por tu esfuerzo. Nos vemos pronto en clase. El promedio obtenido es: " + prom);
+            alert(nom + " Gracias por tu esfuerzo. Nos vemos pronto en clase. El promedio obtenido es: " + prom);
         }
         } else {
-            console.log("Ingresa nota entre los rangos 0 a 10");
+            alert("Ingresa nota entre los rangos 0 a 10");
         }    
     } else {
-        console.log("Ingresa nota entre los rangos 0 a 10");
+        alert("Ingresa nota entre los rangos 0 a 10");
     }    
 } else {
-    console.log("Ingresa nota entre los rangos 0 a 10");
+    alert("Ingresa nota entre los rangos 0 a 10");
 }
